@@ -1,0 +1,18 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+        maven {
+            name 'Paravision Android SDK'
+            url 'https://paravision.mycloudrepo.io/repositories/android-sdk-kotlin'
+            credentials {
+                username "6675f2ce-2d8d-4eac-a536-917c746de283"
+                password "58f08525-2b55-4daf-8fbc-41c4f3c3336b"
+            }
+        }
+    }
+}
+rootProject.name = "Paravision_SDK_Basic_Functionality_Demo"
+include ':app'
